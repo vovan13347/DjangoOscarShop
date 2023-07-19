@@ -1,0 +1,19 @@
+sudo su
+
+zypper python3-dev
+
+pip install django-oscar
+
+pip install sorl-thumbnail
+
+zypper install virtualenv
+
+virtualenv shop_env
+
+cd /mnt/d
+
+source shop_env/bin/activate
+
+python manage.py runserver 
+
+deactivate

@@ -1,0 +1,9 @@
+virtualenv
+
+pip install virtualenv
+
+virtualenv myshop_env
+
+./myshop_env/Scripts/activate
+
+deactivate
